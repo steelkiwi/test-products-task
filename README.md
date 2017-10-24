@@ -1,4 +1,4 @@
-#Steelkiwi Python Test Task
+# Steelkiwi Python Test Task
 
 
 The first thing you need to do is fork this repository. After having completed tasks you think are better to be done, please create a pull request and send its link to the HR you’ve been communicating with so far.
@@ -8,7 +8,7 @@ Feel free to do as much of the assignment as you can - it could be either the wh
 [Here](http://zaxwai.axshare.com/#g=1&p=main_page) you can find the ware-frames for the project.
 
 
-###Start project
+### Start project
 * `git clone https://repo.url` - clone repo
 * `virtualenv venv --python=/path/to/python` - configure virtual environment
 * `pip install -r requirements.txt` - install requirements
@@ -19,7 +19,7 @@ Feel free to do as much of the assignment as you can - it could be either the wh
 * `python manage.py runserver` - run development server
 
 
-####General Requirements:
+#### General Requirements:
 * Use the latest version of Django.
 * Follow the rules of PEP8.
 * Display errors next to the form fields.
@@ -32,7 +32,7 @@ Feel free to do as much of the assignment as you can - it could be either the wh
 * Use class-based views for all views on the website. If you think that using a function-based view in a particular case would be better, please do but add an explanation why in the comments. 
 * Create fixtures or commands for data generation.
 
-####Basic Requirements:
+#### Basic Requirements:
 * Finish provided unit tests and add as many of them as you find necessary. 
 * Update the field “slug” of the Product model so that it’s unique. 
 * Add an image field to the Product model.
@@ -43,7 +43,7 @@ Feel free to do as much of the assignment as you can - it could be either the wh
 * Add the ability to comment products on their respective pages and display all recent comments (for the span of last 24 hours). The comment length should be limited to 500 symbols. Authorization should not be required, comments must be flat - ,no replies needed. 
 * Add all models to the admin interface and make sure that the ‘view on site’ button works properly.
 
-####Advanced Requirements:
+#### Advanced Requirements:
 * Add the WSYWIG editor to Product description. 
 * On the main page, display the list of top 10 most popular products (as measured by the number of likes)
 * Add the ability for admins to add the products of their choice to the ‘Popular’ list. 
